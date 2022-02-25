@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    background-color: purple;
+    flex-direction: column;
+/* change color to odin color for body and container*/
+}
+
+.container {
+    font-size: 20px;
+    background-color: green;
+    flex: 1 0 auto;
+}
+
+.list {
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.item0 {
+display: flex;
+margin: 5px;
+padding: 3px; 
+color: white; 
+}
+
+.item1 {
+    display: flex;
+    margin: 7px;
+}
+
+.item2 {
+    display: flex;
+    margin: 7px;
+}
+
+.item3 {
+    display: flex;
+    margin: 7px;
+}
+
+.hl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+/* this starts main bodies*/
+.b1 {
+    display: flex;
+    background-color: white;
+    height: 100px;
+    width: 700px;
+}
+.b2 {
+    display: flex;
+    background-color: tan;
+    height: 100px;
+    width: 100px;
+}
+
+.b3 {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+#footer {
+    display: flex;
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+}

@@ -1,13 +1,13 @@
 body {
     display: flex;
-    background-color: purple;
+    background-color: #1F2937;
     flex-direction: column;
 /* change color to odin color for body and container*/
 }
 
 .container {
     font-size: 20px;
-    background-color: green;
+    background-color: #1F2937;
     flex: 1 0 auto;
 }
 
@@ -51,27 +51,106 @@ color: white;
 /* this starts main bodies*/
 .b1 {
     display: flex;
-    background-color: white;
-    height: 100px;
-    width: 700px;
+    background-color: #1F2937;
+    flex: 1 0 auto;
 }
-.b2 {
+.h1 {
     display: flex;
-    background-color: tan;
-    height: 100px;
-    width: 100px;
+    font-size: 48px;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    flex: 1 0 auto;
+    background-color: #1F2937;
+    max-height: 150px;
+    color: white;
+
+    
+}
+.p1 {
+    font-size: 15px;
+    width: 200px;
+    text-align: left;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    align-self: flex-start;
+}
+
+.button {
+    display: flex;
+    flex: 1 0 auto;
+    font-size: 10px;
+    margin: auto;
+    background-color: #3882F6;
+    color: white;
+    
+}
+
+.button1 {
+    display: flex;
+    margin: 5px;
+    border: none;
+    width: 50px;
+
+    
+}
+
+.img {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: row;
+    margin: 30px;
+    height: 150px;
+    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+.pic1 {
+display: flex;
+}
+.pic2 {
+display: flex;
+}
+
+.pic3 {
+display: flex;
+
+}
+
+.pic4 {
+display: flex;    
+
+}
+
+.b2 {
+   background-color: white;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+
+}
+.h2 {
+   display: flex;
+   flex: 1 0 auto;
 }
 
 .b3 {
     display: flex;
-    background-color: black;
-    height: 100px;
-    width: 100px;
+    background-color: lightgray;
+    flex: 1 0 auto;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    
 }
 
 #footer {
     display: flex;
     background-color: gray;
-    height: 100px;
-    width: 100px;
+    font-size: 20px;
 }
